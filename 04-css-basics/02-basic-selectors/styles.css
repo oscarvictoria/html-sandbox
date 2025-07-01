@@ -1,0 +1,49 @@
+body {
+    font-family: 'Ariel', sans-serif;
+    border: 3px solid red; 
+}
+/* h2 {
+    color: red; 
+    font-size: 30px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+} */
+
+/* Class Selector  */ 
+
+.sporty {
+    color: red;
+}
+
+.casual {
+    color: blue;
+}
+
+.formal {
+    color: brown;
+}
+
+/* ID selector */ 
+
+#container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px; 
+}
+
+/* Style Multiple Elementsr */ 
+
+.sporty, 
+.casual {
+    font-size: 35px;
+}
+
+
+/* Decendent Styles */ 
+
+#container p {
+    background: blue;
+}
