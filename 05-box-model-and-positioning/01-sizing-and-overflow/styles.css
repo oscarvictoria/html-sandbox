@@ -1,3 +1,18 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+.box-1 {
+  background-color: coral;
+  max-width: 400px;
+  min-height: 200px; 
+  max-height: 600px;
+
+
+}
+
+p {
+
+  min-height: 400px;
+  
+}
