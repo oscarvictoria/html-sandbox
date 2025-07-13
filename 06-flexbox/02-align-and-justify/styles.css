@@ -4,14 +4,13 @@ body {
 
 .container {
   background-color: lightblue;
-  height: 400px;
+  height: 800px;
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: start;
   align-items: stretch; /* Default */
-
-  /* flex-wrap: nowrap;
-  flex-shrink: 1; */
+  flex-wrap: wrap;
+  align-content: space-around;
 }
 
 .item {
