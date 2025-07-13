@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  margin: 30px;
+  background-color: coral;
+}
+
+.container {
+  /* display: flex;
+  width: 800px; */
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 250px;
+  margin: 30px;
+  padding: 30px;
+  background-color: lightblue;
+  height: 500px;
+  text-align: center;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.card p {
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+}
+
+.card li {
+  text-align: start;
+}
