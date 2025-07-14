@@ -9,14 +9,17 @@ body {
 }
 
 .pricing {
+  margin-top: 70px;
   display: flex;
   justify-content: center;
+  align-items: center;
+
+  height: 800px;
 }
 
 .card {
-  /* min-width: 250px;
-  max-width: 800px; */
-  width: 100%;
+  max-width: 290px;
+  width: 290px;
   margin: 10px;
   padding: 10px;
   background-color: lightblue;
@@ -35,30 +38,24 @@ body {
 }
 
 a {
-  margin-top: 18px;
+  margin: 10px;
   display: inline-block;
   border: 2px solid black;
-  padding: 10px 50px;
+  padding: 10px 80px;
   background-color: white;
   color: black;
   text-decoration: none;
-  margin-bottom: 20px;
 }
 
 .card ul {
-  max-width: 90%;
-  max-height: 90%;
-  /* margin-top: 60px; */
+  margin-top: 10px;
   padding: 10px;
   list-style: none;
-  margin-bottom: 10px;
-  /* word-wrap: break-word; */
-  overflow-wrap: break-word;
+  /* word-wrap: break-word;
+  overflow-wrap: break-word; */
 }
 
 .card li {
-  max-height: 100%;
-  max-width: 100%;
+  margin: 8px;
   text-align: start;
-  padding: 3px;
 }
