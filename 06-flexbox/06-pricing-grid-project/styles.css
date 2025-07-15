@@ -23,13 +23,33 @@ body {
   margin: 10px;
   padding: 10px;
   background-color: lightblue;
-  height: 400px;
+  height: 500px;
   text-align: center;
   border-radius: 8px;
   background-color: white;
 }
 
 .card h2 {
+  padding: 10px;
+  border: 2px solid;
+  height: 25px;
+  background-color: coral;
+  color: white;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.main-text {
+  font-size: 15px;
+  width: 300px;
+  height: 20px;
+}
+
+.card h2 {
+  font-size: 20px;
   text-align: center;
 }
 
@@ -45,10 +65,11 @@ a {
   background-color: white;
   color: black;
   text-decoration: none;
+  border-radius: 4px;
 }
 
 .card ul {
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 10px;
   list-style: none;
   /* word-wrap: break-word;
@@ -56,6 +77,6 @@ a {
 }
 
 .card li {
-  margin: 8px;
+  margin: 10px;
   text-align: start;
 }
