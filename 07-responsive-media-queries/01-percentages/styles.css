@@ -5,5 +5,12 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 20px auto;
+  background-color: coral;
+  padding: 20px;
+  max-width: 1500px;
 }
