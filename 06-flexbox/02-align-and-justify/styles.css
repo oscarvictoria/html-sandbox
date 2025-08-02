@@ -10,7 +10,7 @@ body {
   justify-content: start;
   align-items: stretch; /* Default */
   flex-wrap: wrap;
-  align-content: space-around;
+  align-content: start;
 }
 
 .item {

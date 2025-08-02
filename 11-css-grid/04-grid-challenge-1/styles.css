@@ -1,3 +1,52 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+
+.container {
+  background-color: hsl(0 3% 79%);
+  height: 600px;
+  max-width: 1100px;
+ 
+  
+}
+
+
+
+.grid {
+  height: 500px;
+  width: 900px;
+  background-color: hsl(120 30% 69%);
+  display: grid;
+  grid-template-columns: 200px 300px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+ 
+}
+
+
+.item {
+  background-color: hsl(0 80% 63%);
+  border: 2px solid black;
+  padding: 20px;
+
+}
+
+.a {
+  background-color: navajowhite;
+  grid-row: 1 / 5;
+
+}
+
+.b {
+  background-color: navy;
+  grid-row: 5;
+  grid-column: 1 / 4;
+}
+
+.c {
+  grid-row: 1 / span 4;
+  grid-column: 2 / span 2;
+
+}
